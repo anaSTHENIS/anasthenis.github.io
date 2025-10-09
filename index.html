@@ -14,32 +14,10 @@ description: "Announce, organize and manage your Dungeons & Dragons events with 
   <p>Welcome to the one-stop solution for announcing and tracking Dungeons & Dragons events!</p>
 </div>
 
-<section class="event-list">
-  <h2>Upcoming Events</h2>
-  <ul>
-    {% for event in site.data.events %}
-      <li>
-        <strong>{{ event.title }}</strong><br>
-        <em>{{ event.date | date: "%d-%m-%Y %H:%M" }}</em><br>
-        <span>{{ event.description }}</span><br>
-        <span>Location: {{ event.location }}</span>
-      </li>
-    {% endfor %}
-  </ul>
-</section>
-
-<section class="new-event">
-  <h2>Announce an Event</h2>
-  <p>
-    Use the Discord bot to create and announce events automatically.<br>
-    Slash Command Format: <code>/announce-event [title] [date: dd-MM-yyyy HH:mm] [location] [description]</code>
-  </p>
-</section>
-
 <section class="info">
   <h2>About</h2>
   <p>
-    The D&D Event Announcer helps Dungeon Masters and players coordinate campaigns, sessions, and events. It integrates with Discord for real-time announcements and notifications in your server.
+    The D&D Event Announcer integrates tightly with Discord for real-time announcements and event management, helping Dungeon Masters and players coordinate their campaigns effectively.
   </p>
 </section>
 
