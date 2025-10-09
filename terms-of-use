@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Terms of Use</title>
+    <style>
+        body {
+            font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+            background: #f9fafb;
+            color: #222;
+            padding: 2rem;
+            max-width: 700px;
+            margin: auto;
+            line-height: 1.7;
+        }
+
+        h1, h2 {
+            color: #2c3e50;
+            margin-bottom: 0.5rem;
+        }
+
+        h1 {
+            font-size: 2.4rem;
+            border-bottom: 3px solid #2980b9;
+            padding-bottom: 0.3rem;
+            margin-bottom: 1.5rem;
+        }
+
+        p {
+            margin-bottom: 1.1rem;
+            font-size: 1.1rem;
+        }
+
+        ul {
+            margin-left: 1.5rem;
+            margin-bottom: 1.3rem;
+        }
+
+        ul li {
+            margin-bottom: 0.6rem;
+            font-size: 1.05rem;
+        }
+
+        footer {
+            margin-top: 3rem;
+            font-size: 0.9rem;
+            color: #666;
+            text-align: center;
+        }
+
+        a {
+            color: #2980b9;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Welcome to D&D Event Announcer Bot!</h1>
+
+    <p>Thank you for choosing to use our bot. We're excited to have you join the adventure! Please take a moment to review our Terms of Use below:</p>
+
+    <h2>Guidelines for Use</h2>
+    <ul>
+        <li>Please enjoy the bot respectfully and follow all community guidelines.</li>
+        <li>Use the bot responsibly and avoid abusive or harmful behaviors.</li>
+        <li>Respect other users and uphold community standards.</li>
+    </ul>
+
+    <h2>Disclaimer</h2>
+    <p>The bot is provided <strong>as-is</strong>, and while we strive to keep it reliable, we cannot guarantee uninterrupted service or perfection. By using the bot, you accept any risks involved.</p>
+
+    <h2>Liability</h2>
+    <p>The bot creators and maintainers are not responsible for any damages, losses, or issues arising from the use or misuse of this bot, including but not limited to data loss or service disruption.</p>
+
+    <h2>Changes to the Bot and Terms</h2>
+    <p>We reserve the right to update or discontinue the bot or these Terms of Use at any time. We pledge to communicate significant changes clearly whenever possible.</p>
+
+    <h2>Your Privacy</h2>
+    <p>We respect your privacy and handle any data according to our <a href="/privacy-policy.html" target="_blank" rel="noopener">Privacy Policy</a>. Please review it carefully.</p>
+
+    <h2>Contact Us</h2>
+    <p>If you have questions, concerns, or feedback, feel free to reach out to the support team.</p>
+
+    <footer>
+        &copy; 2025 D&D Event Announcer. All rights reserved.
+    </footer>
+</body>
+</html>
