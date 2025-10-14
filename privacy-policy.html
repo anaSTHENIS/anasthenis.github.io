@@ -3,15 +3,32 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Privacy Policy</title>
+    <title>Privacy Policy - D&D Event Announcer</title>
     <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
         body {
             font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-            background: #f9fafb;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
             color: #222;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
             padding: 2rem;
+        }
+
+        .container {
+            background: #ffffff;
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+            padding: 3rem;
             max-width: 700px;
-            margin: auto;
+            width: 100%;
             line-height: 1.7;
         }
 
@@ -22,14 +39,21 @@
 
         h1 {
             font-size: 2.4rem;
-            border-bottom: 3px solid #2980b9;
+            border-bottom: 3px solid #667eea;
             padding-bottom: 0.3rem;
             margin-bottom: 1.5rem;
+            text-align: center;
+        }
+
+        h2 {
+            font-size: 1.5rem;
+            margin-top: 2rem;
+            color: #667eea;
         }
 
         p {
             margin-bottom: 1.1rem;
-            font-size: 1.1rem;
+            font-size: 1.05rem;
         }
 
         ul {
@@ -37,55 +61,116 @@
             margin-bottom: 1.3rem;
         }
 
-            ul li {
-                margin-bottom: 0.6rem;
-                font-size: 1.05rem;
-            }
+        ul li {
+            margin-bottom: 0.6rem;
+            font-size: 1.05rem;
+        }
+
+        .btn-home {
+            display: inline-block;
+            margin-top: 2rem;
+            padding: 12px 30px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            text-decoration: none;
+            border-radius: 50px;
+            font-weight: 600;
+            font-size: 1rem;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            box-shadow: 0 4px 15px rgba(102, 126, 234, 0.4);
+            text-align: center;
+        }
+
+        .btn-home:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(102, 126, 234, 0.6);
+            text-decoration: none;
+        }
+
+        .btn-container {
+            text-align: center;
+            margin-top: 2rem;
+        }
 
         footer {
             margin-top: 3rem;
+            padding-top: 2rem;
+            border-top: 2px solid #e0e0e0;
             font-size: 0.9rem;
             color: #666;
             text-align: center;
         }
 
         a {
-            color: #2980b9;
+            color: #667eea;
             text-decoration: none;
+            font-weight: 600;
         }
 
-            a:hover {
-                text-decoration: underline;
-            }
+        a:hover {
+            text-decoration: underline;
+        }
+
+        strong {
+            color: #764ba2;
+        }
+
     </style>
 </head>
 <body>
-    <h1>Privacy Policy</h1>
-    <p>We value your privacy and want to be transparent about how your data is handled when you use our bot.</p>
+    <div class="container">
+        <h1>Privacy Policy</h1>
 
-    <h2>Information Collection</h2>
-    <p>Our bot collects minimal information necessary to provide and improve our service. This may include your Discord user ID and preferences you set within the bot.</p>
+        <p>Your privacy is important to us. This Privacy Policy explains how the D&D Event Announcer Bot collects, uses, and protects your information.</p>
 
-    <h2>Data Usage</h2>
-    <p>Collected data is used solely for improving your user experience and for bot functionality. We do not sell, trade, or share your information with third parties.</p>
+        <h2>Information We Collect</h2>
+        <p>The bot may collect the following types of information:</p>
+        <ul>
+            <li><strong>Server Information:</strong> Server IDs, channel IDs, and role information necessary for bot functionality.</li>
+            <li><strong>User Information:</strong> User IDs and usernames for event announcements and bot interactions.</li>
+            <li><strong>Event Data:</strong> Event details you provide, including titles, descriptions, dates, and times.</li>
+            <li><strong>Usage Data:</strong> Command usage and interaction logs for improving bot performance.</li>
+        </ul>
 
-    <h2>Data Security</h2>
-    <p>We implement reasonable security measures to protect your data against unauthorized access or disclosure.</p>
+        <h2>How We Use Your Information</h2>
+        <p>We use the collected information to:</p>
+        <ul>
+            <li>Provide core bot functionality, including event announcements and reminders.</li>
+            <li>Improve and optimize bot performance and user experience.</li>
+            <li>Troubleshoot issues and provide technical support.</li>
+            <li>Ensure compliance with Discord's Terms of Service and Community Guidelines.</li>
+        </ul>
 
-    <h2>Retention</h2>
-    <p>We retain your data only as long as necessary to provide the service or as required by law.</p>
+        <h2>Data Storage and Security</h2>
+        <p>We take reasonable measures to protect your data from unauthorized access, alteration, or destruction. However, no method of transmission over the internet is 100% secure, and we cannot guarantee absolute security.</p>
 
-    <h2>Your Rights</h2>
-    <ul>
-        <li>You may request to view or delete your data at any time by contacting us.</li>
-        <li>If you stop using the bot, your data will be deleted after a reasonable period.</li>
-    </ul>
+        <h2>Data Retention</h2>
+        <p>We retain event data and user information only as long as necessary to provide bot services. You may request deletion of your data by contacting our support team.</p>
 
-    <h2>Contact Us</h2>
-    <p>If you have any questions or concerns about your privacy, please get in touch.</p>
+        <h2>Third-Party Services</h2>
+        <p>The bot operates on Discord's platform and is subject to <strong>Discord's Privacy Policy</strong>. We do not share your information with third parties except as required for bot functionality or legal compliance.</p>
 
-    <footer>
-        &copy; 2025 D&D Event Announcer. All rights reserved.
-    </footer>
+        <h2>Your Rights</h2>
+        <p>You have the right to:</p>
+        <ul>
+            <li>Access the data we have collected about you.</li>
+            <li>Request correction or deletion of your data.</li>
+            <li>Opt out of certain data collection practices.</li>
+        </ul>
+
+        <h2>Changes to This Policy</h2>
+        <p>We may update this Privacy Policy from time to time. Significant changes will be communicated through appropriate channels.</p>
+
+        <h2>Contact Us</h2>
+        <p>If you have questions or concerns about this Privacy Policy, please contact our support team.</p>
+
+        <div class="btn-container">
+            <a href="/index.html" class="btn-home">← Back to Home</a>
+        </div>
+
+        <footer>
+            &copy; 2025 D&D Event Announcer. All rights reserved.
+        </footer>
+    </div>
 </body>
 </html>
