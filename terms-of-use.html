@@ -3,15 +3,32 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Terms of Use</title>
+    <title>Terms of Use - D&D Event Announcer</title>
     <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
         body {
             font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-            background: #f9fafb;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
             color: #222;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
             padding: 2rem;
+        }
+
+        .container {
+            background: #ffffff;
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+            padding: 3rem;
             max-width: 700px;
-            margin: auto;
+            width: 100%;
             line-height: 1.7;
         }
 
@@ -22,14 +39,21 @@
 
         h1 {
             font-size: 2.4rem;
-            border-bottom: 3px solid #2980b9;
+            border-bottom: 3px solid #667eea;
             padding-bottom: 0.3rem;
             margin-bottom: 1.5rem;
+            text-align: center;
+        }
+
+        h2 {
+            font-size: 1.5rem;
+            margin-top: 2rem;
+            color: #667eea;
         }
 
         p {
             margin-bottom: 1.1rem;
-            font-size: 1.1rem;
+            font-size: 1.05rem;
         }
 
         ul {
@@ -42,53 +66,92 @@
             font-size: 1.05rem;
         }
 
+        .btn-home {
+            display: inline-block;
+            margin-top: 2rem;
+            padding: 12px 30px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            text-decoration: none;
+            border-radius: 50px;
+            font-weight: 600;
+            font-size: 1rem;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            box-shadow: 0 4px 15px rgba(102, 126, 234, 0.4);
+            text-align: center;
+        }
+
+        .btn-home:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(102, 126, 234, 0.6);
+            text-decoration: none;
+        }
+
+        .btn-container {
+            text-align: center;
+            margin-top: 2rem;
+        }
+
         footer {
             margin-top: 3rem;
+            padding-top: 2rem;
+            border-top: 2px solid #e0e0e0;
             font-size: 0.9rem;
             color: #666;
             text-align: center;
         }
 
         a {
-            color: #2980b9;
+            color: #667eea;
             text-decoration: none;
+            font-weight: 600;
         }
 
         a:hover {
             text-decoration: underline;
         }
 
+        strong {
+            color: #764ba2;
+        }
+
     </style>
 </head>
 <body>
-    <h1>Welcome to D&D Event Announcer Bot!</h1>
+    <div class="container">
+        <h1>Terms of Use</h1>
 
-    <p>Thank you for choosing to use our bot. We're excited to have you join the adventure! Please take a moment to review our Terms of Use below:</p>
+        <p>Thank you for choosing to use our D&D Event Announcer Bot. We're excited to have you join the adventure! Please take a moment to review our Terms of Use below:</p>
 
-    <h2>Guidelines for Use</h2>
-    <ul>
-        <li>Please enjoy the bot respectfully and follow all community guidelines.</li>
-        <li>Use the bot responsibly and avoid abusive or harmful behaviors.</li>
-        <li>Respect other users and uphold community standards.</li>
-    </ul>
+        <h2>Guidelines for Use</h2>
+        <ul>
+            <li>Please enjoy the bot respectfully and follow all community guidelines.</li>
+            <li>Use the bot responsibly and avoid abusive or harmful behaviors.</li>
+            <li>Respect other users and uphold community standards.</li>
+        </ul>
 
-    <h2>Disclaimer</h2>
-    <p>The bot is provided <strong>as-is</strong>, and while we strive to keep it reliable, we cannot guarantee uninterrupted service or perfection. By using the bot, you accept any risks involved.</p>
+        <h2>Disclaimer</h2>
+        <p>The bot is provided <strong>as-is</strong>, and while we strive to keep it reliable, we cannot guarantee uninterrupted service or perfection. By using the bot, you accept any risks involved.</p>
 
-    <h2>Liability</h2>
-    <p>The bot creators and maintainers are not responsible for any damages, losses, or issues arising from the use or misuse of this bot, including but not limited to data loss or service disruption.</p>
+        <h2>Liability</h2>
+        <p>The bot creators and maintainers are not responsible for any damages, losses, or issues arising from the use or misuse of this bot, including but not limited to data loss or service disruption.</p>
 
-    <h2>Changes to the Bot and Terms</h2>
-    <p>We reserve the right to update or discontinue the bot or these Terms of Use at any time. We pledge to communicate significant changes clearly whenever possible.</p>
+        <h2>Changes to the Bot and Terms</h2>
+        <p>We reserve the right to update or discontinue the bot or these Terms of Use at any time. We pledge to communicate significant changes clearly whenever possible.</p>
 
-    <h2>Your Privacy</h2>
-    <p>We respect your privacy and handle any data according to our <a href="/privacy-policy.html" target="_blank" rel="noopener">Privacy Policy</a>. Please review it carefully.</p>
+        <h2>Your Privacy</h2>
+        <p>We respect your privacy and handle any data according to our <a href="/privacy-policy.html">Privacy Policy</a>. Please review it carefully.</p>
 
-    <h2>Contact Us</h2>
-    <p>If you have questions, concerns, or feedback, feel free to reach out to the support team.</p>
+        <h2>Contact Us</h2>
+        <p>If you have questions, concerns, or feedback, feel free to reach out to the support team.</p>
 
-    <footer>
-        &copy; 2025 D&D Event Announcer. All rights reserved.
-    </footer>
+        <div class="btn-container">
+            <a href="/index.html" class="btn-home">← Back to Home</a>
+        </div>
+
+        <footer>
+            &copy; 2025 D&D Event Announcer. All rights reserved.
+        </footer>
+    </div>
 </body>
 </html>
