@@ -254,24 +254,42 @@
                 <li>✅ Automatic event scheduling and reminders</li>
                 <li>✅ Multi-language support (9 languages)</li>
                 <li>✅ Easy setup with slash commands</li>
-                <li>✅ Event management (list, add, delete)</li>
+                <li>✅ Event management (list, add, delete, clear)</li>
+                <li>✅ Configurable announcement channel & bot language</li>
             </ul>
 
             <h3>Quick Start</h3>
             <ol>
                 <li><strong>Add the bot</strong> to your Discord server</li>
-                <li><strong>Use <code>/setchannel</code></strong> to set announcement channel</li>
-                <li><strong>Use <code>/addevent</code></strong> to create your first event</li>
-                <li><strong>Done!</strong> The bot will automatically post announcements</li>
+                <li><strong>Use <code>/setchannel</code></strong> in your desired announcement channel</li>
+                <li><strong>Create events</strong> using <code>/addevent</code></li>
+                <li><strong>Manage events</strong> with <code>/listevents</code>, <code>/deleteevent</code>, or <code>/clearevents</code></li>
+                <li><strong>Change bot language</strong> with <code>/setlanguage</code></li>
+                <li><strong>Enjoy!</strong> The bot will post announcements automatically</li>
             </ol>
 
             <h3>Commands</h3>
             <div class="command-box">
                 <p><code>/addevent</code> - Create a new D&D event announcement</p>
                 <p><code>/listevents</code> - View all scheduled events</p>
-                <p><code>/deleteevent</code> - Remove an event</p>
+                <p><code>/deleteevent</code> - Remove an event from the schedule (use <code>id</code>)</p>
+                <p><code>/clearevents</code> - Remove all events from the schedule</p>
                 <p><code>/setchannel</code> - Set the channel for event announcements</p>
-                <p><code>/setlanguage</code> - Change bot language</p>
+                <p><code>/setlanguage</code> - Change bot language (English, Greek, Italian, Spanish, Japanese, Russian, French, German, Turkish)</p>
+            </div>
+
+            <h3>Usage Examples</h3>
+            <div class="command-box">
+                <p>Creating an event:</p>
+                <p><code>/addevent day:20 month:10 hour:20 minutes:50 name:test endtime:20:55 details: Boss Fight!</code></p>
+                <p>Setting the announcement channel:</p>
+                <p><code>/setchannel</code> (use this command in your desired channel)</p>
+                <p>Changing language:</p>
+                <p><code>/setlanguage</code></p>
+                <p>Remove an event:</p>
+                <p><code>/deleteevent id:ID</code></p>
+                <p>Remove all events:</p>
+                <p><code>/clearevents</code></p>
             </div>
 
             <h3>Need Help?</h3>
